@@ -2,9 +2,9 @@ import streamlit as st
 import requests
 
 # ------------------ Config ------------------
-BACKEND_URL = "http://127.0.0.1:8000/analyze"  # Local backend
+# BACKEND_URL = "http://127.0.0.1:8000/analyze"  # Local backend
 # When deployed, change to:
-# BACKEND_URL = "https://kavach-vani-backend.onrender.com/analyze"
+BACKEND_URL = "https://kavach-vani-backend.onrender.com/analyze"
 
 # ------------------ Page config ------------------
 st.set_page_config(
